@@ -60,7 +60,14 @@ li{
     padding: 0 10px;
 }
 
-p{
+#answer-checker{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+}
+
+#length{
     text-align: center;
     margin: 20px auto;
     font-size: 40px;
