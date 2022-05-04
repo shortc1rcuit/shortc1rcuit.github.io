@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    width: 500px;
+    margin: auto;
+    font-size: 50pt;
+    font-weight: normal;
+}
+
+h2{
+    text-align: center;
+    box-sizing: border-box;
+    width: 500px;
+    margin: auto;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+table{
+    margin: 50px auto;
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+}
+
+tr:nth-child(odd) td:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(even) td:nth-child(even){
+    background-color: black;
+    color: white;
+}
+
+ul{
+    display: table;
+    margin: 0 auto;
+}
+
+#puzzle{
+    width: 80%;
+    margin: auto;
+}
